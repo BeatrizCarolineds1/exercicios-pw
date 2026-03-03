@@ -64,7 +64,7 @@ A **sustentabilidade** é um conceito que se refere à utilização consciente d
 
 A adoção de práticas sustentáveis ajuda a minimizar os impactos negativos das atividades humanas no meio ambiente. Isso inclui a redução do consumo de recursos, a reciclagem de materiais, a preservação dos ecossistemas e a promoção de uma economia mais verde.
 
-![Sustentabilidade](https://via.placeholder.com/600x300?text=Sustentabilidade)  
+![Sustentabilidade](./pilares-da-sustentabilidade.jpg)  
 *Imagem: Práticas sustentáveis*
 
 ### Tabela 1: Práticas Sustentáveis
