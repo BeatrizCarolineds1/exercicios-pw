@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    height: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    
+}
+footer {
+
+    background-color:lightblue;
+    justify-content: space-between; 
+}
+
+footer p {
+    font-size: 18px;
+    text-decoration: solid;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.displaytest {
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.displaytest a {
+    display: block;
+}
+
+aside {
+    position: sticky;
+    display: inline-block;
+    width: 25%;
+}
+
+section {
+    display: inline-block;
+    width: 70%;
+    margin-left: 25%;
+}
+
+aside a, footer a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover, footer a:hover {
+    color: #555;
+}
+
+aside a:visited, footer a:visited {
+    color: blueviolet;
+}

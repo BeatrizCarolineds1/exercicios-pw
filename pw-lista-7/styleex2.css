@@ -1,0 +1,52 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffd6f4;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    color: #0a0a0a;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.container-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-personagem{
+    background: rgb(253, 164, 205);
+    border-radius: 12px;
+    padding: 16px;
+    width: 220px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-personagem:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.card-img-personagens{
+    width: 100%;
+    border-radius: 12px;
+}
