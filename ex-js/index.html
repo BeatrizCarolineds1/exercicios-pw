@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">  </head>
+  <body>
+    <h1 class="text-center m-5">TO DO LIST - ETEC IA</h1>
+
+    <div class="container border p -5 rounded 2">
+
+    <div class="input-group  mb-3">
+    <span class="input-group-text" id=" ">Tarefa</span>
+
+    <input type="text"
+    class="form-control"
+    placeholder="Digite sua tarefa">
+</div>
+<button type="button" class="btn btn-primary" id=ENVIAR>ENVIAR</button>
+<button type="button" class="btn btn-danger" id="LIMPAR" onclick="limparTudo()">LIMPAR</button>
+<button type="button" class="btn btn-primary">
+    TAREFAS
+</button>
+<span class="badge text-bg-secondary"  id="contador"></span>
+<ul class="list-group mt-5">
+<!--<li class="item list-group-item d-flex justfy-content-between align-items-center">
+
+    Tarefa
+    <button class="btn btn-close"></button>
+</li> -->
+
+</ul>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+      <script src = "./index.js"></script>
+  </body>
+</html>
